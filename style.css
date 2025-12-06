@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+:root {
+    --color: #184E36;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+     background-color: var(--color);
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+nav {
+    gap: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;    
+}
+.logo img {
+    padding-top: 10px;
+    margin-left: 0px;
+    width: 300px;
+}   
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+ul a {
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: #fff;
+}
+ul a:hover {
+    opacity: 40%;
+    color: #fff;
+}
+
+.img img {
+    width: 100%;
+}
+.img-relative {
+    position: relative;
+}
+.img-relative img {
+    position: absolute;
+    top: -600px;
+    left: 420px;
+    width: 500px;
+}
+.img-relative h1 {
+    position: absolute;
+    top: -380px;
+    left: 330px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+}
+.img-relative div {
+    height: 665px;
+
+    width: 100%;
+    background-color: var(--color);
+    position: absolute;
+    top: -670px;
+    opacity: 30%;
+}
+.img-relative span {
+    margin-left: 70px;
+}
+.img-relative {
+    position: relative;
+}
+.button {
+    position: absolute;
+    top: -270px;
+    left: 600px;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--color);
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 16px 25px;
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.img-relative .button:hover {
+    opacity: 80%;
+}
+.about-text h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: var(--color);
+    font-weight: 500;
+}
+.about-text p {
+    text-align: center;
+    padding-top: 20px;
+    line-height: 25px;
+    color: var(--color);
+}
+.about-box {
+    text-align: center;
+}
+.about-box h4 {
+    font-weight: 500;
+    color: var(--color);
+}
+.about-box p {
+    color: var(--color);
+    padding-top: 10px;
+}
+.about-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+#section-menu {
+    background-color: #e4e3e3;
+}
+hr {
+    width: 100%;
+    margin-top: 20px;  
+}
+.menu-one  {
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 100%;
+    background-color: var(--color);
+    margin-top: 20px;
+    padding: 10px 15px; 
+}
+.h1 {
+    color: #fff;
+    margin-top: 20px;
+    color: black;
+}
+.menu-one h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.menu-one span {
+    font-size: 15px;
+    padding-top: 20px;
+}
+.menu-text {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.btn-2 {
+    margin-top: -200px;
+}
+.btn-2 button {
+    margin-bottom: 300px;
+    cursor: pointer;
+    margin-left: 500px;
+    padding: 15px 20px;
+    background-color: var(--color);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.gallery-text {
+    padding-top: 50px;
+    text-align: center;
+}
+.gallery-text h1 {
+    color: var(--color);
+    font-weight: 500;
+    font-size: 40px;
+}
+.gallery-text p {
+    color: var(--color);
+    padding-top: 20px;
+}
+.gallery-img {
+    margin-top: 100px;
+}
+.gallery-img .photo-1 {
+    width: 520px;
+    transition: all 0.3s ease;
+}
+.gallery-img .photo-1:hover {
+    width: 540px;
+}
+.gallery-img .photo-2 {
+    width: 520px;
+    transition: all 0.3s ease;
+}
+.gallery-img .photo-2:hover {
+    width: 540px;
+}
+.gallery-img .photo-3 {
+    width: 520px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+.gallery-img .photo-3:hover {
+    width: 540px;
+}
+.gallery-img .photo-4 {
+    width: 520px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+.gallery-img .photo-4:hover {
+    width: 540px;
+}
+.contact-text {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 35px;
+}
+.contact-text h1 {
+    color: #fff;
+    padding-top: 40px;
+}
+.contact-text p {
+    color: #fff;
+}
+#section-contact {
+    background-color: var(--color);
+}
+.contact-card {
+    text-align: center;
+    margin-top: 40px;
+}
+.contact-card i {
+    color: #fff;
+    font-size: 40px;
+    width: 90px;
+    height: 90px;
+    padding-top: 25px;
+    border-radius: 50%;
+    background-color: #557567;
+}
+.contact-card h4 {
+    font-size: 25px;
+    padding-top: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+.contact-card p {
+    color: #fff;
+    padding-top: 10px;
+    line-height: 25px;
+}
+.contact-card a {
+    text-decoration: none;
+    color: #fff;
+}
+.contact-card-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+#footer-section {
+    background-color: #45886b;
+}
+.one-div img {
+    width: 350px;
+    margin-top: -30px;
+    margin-left: -40px;
+}
+.one-div p {
+    color: #d3d3d3;
+    font-weight: 300;
+    margin-top: -80px;
+}
+.two-div .text-foot {
+    color: #fff;
+    font-weight: 600;
+}
+.foot-ol {
+    line-height: 25px;
+    list-style: none;
+    padding-top: 15px;
+}
+.foot-ol a {
+    transition: all 0.5s ease;
+    color: #d3d3d3;
+    text-decoration: none;
+    cursor: pointer;
+}
+.foot-ol a:hover {
+    color: #fff;
+}
+.footer {
+    display: flex;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+.three-div p {
+    color: #fff;
+    font-weight: 500;
+}
+.three-div i {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 10px;
+    width: 60px;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 3px;
+    border-radius: 50%;
+    background-color: #557567;
+    margin-top: 10px;
+    margin-left: 60px;
+}
